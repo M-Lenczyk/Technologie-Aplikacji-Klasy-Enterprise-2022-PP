@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p:tabView>
+                <p:tab title="Form">
+                    <p:spinner id="firstNumber" value="#{Calculator.firstNumber}" />
+                    +<p:spinner id="secondNumber" value="#{Calculator.secondNumber}"/>    
+                    &nbsp;&nbsp;
+                    <p:commandButton label="calculate" title="calculate" value="Calculate" update = "result currentDate growl" action="#{Calculator.calculate()}" ajax="true"/>
+                    =<h:outputText id = "result" value="#{Calculator.result}"></h:outputText>
+                    <br/><br/>
+                    <h:outputText id="currentDate" value="#{Calculator.date}"></h:outputText>
+                    <p:growl id="growl" showDetail="true"/>
+                </p:tab>
+                <p:tab title="Table">
+                    <h:form>
+                        <p:dataTable id="students" var="student" value="#{StudentsTable.students}" rowKey="#{student.surname}"
+                                     rows="3"
+                                     paginator="true"
+                                     paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                                     currentPageReportTemplate="{startRecord}-{endRecord} of {totalRecords} records"
+                                     rowsPerPageTemplate="3,5,10,{ShowAll|'All'}">
+                            <p:column headerText="Name" sortBy="#{student.name} #{student.surname}">
+                                <h:outputText id ="name" value="#{student.name}"/>
+                            </p:column>
+                            <p:column headerText="Surname" sortBy="#{student.surname} #{student.name}">
+                                <h:outputText id ="surname"  value="#{student.surname}"/>
+                            </p:column>
+                            <p:column headerText="Grades (Avg)" sortBy="#{student.average}">
+                                <h:outputText id ="average" value="#{student.average}"  />
+                            </p:column>
+                        </p:dataTable>
+                    </h:form>
+                </p:tab>
+                <p:tab title="Chart">
+                    <h:form>
+                        <p:chart id="lineChart" type="line" model="#{ChartModel.myChartModel}"/>
+                        <p:commandButton label="reset" title="reset" value="Reset" update = "lineChart" action="#{ChartModel.resetZoom()}" ajax="true"/>
+                    </h:form>
+                </p:tab>
+            </p:tabView>
+        </h:form>
+    </h:body>
+</html>
+

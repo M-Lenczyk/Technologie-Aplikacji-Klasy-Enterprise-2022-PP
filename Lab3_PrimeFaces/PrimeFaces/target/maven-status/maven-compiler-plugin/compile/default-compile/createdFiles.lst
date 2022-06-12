@@ -1,0 +1,6 @@
+view\backing\StudentsTable.class
+view\backing\Calculator.class
+com\mycompany\PrimeFaces\resources\JakartaEE8Resource.class
+view\backing\ChartModel.class
+com\mycompany\PrimeFaces\JakartaRestConfiguration.class
+view\backing\Student.class
