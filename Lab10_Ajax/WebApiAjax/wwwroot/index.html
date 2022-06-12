@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <h1>Calculations</h1>
+        <form>
+            x = <input type="text" id="x" />
+            y = <input type="text" id="y" />
+            <input type="button" id="calcJQUERY" value="Call API (jQuery)" />
+            <input type="button" id="calcJS" value="Call API (vanilla JS)" />
+        </form>
+        <p>Results:</p>
+        x + y = <span id="sum"></span><br />
+        x - y = <span id="difference"></span><br />
+        x * y = <span id="product"></span><br />
+        x / y = <span id="quotient"></span><br />
+    </div>
+
+    <script type="text/javascript" src="calculatorJQUERY.js"></script>
+    <script type="text/javascript" src="calculatorJS.js"></script>
+    
+</body>
+</html>

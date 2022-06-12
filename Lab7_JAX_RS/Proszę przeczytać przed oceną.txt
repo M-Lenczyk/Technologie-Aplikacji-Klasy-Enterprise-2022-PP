@@ -1,0 +1,3 @@
+Przy zapytaniach z postmana należy użyć ComplainText zamiast ComplaintText. Refactoring na ComplaintText powoduje błąd 500 (nie może może rozpoznać kolumny), zapewne jest to spowodowane zmienną, parametrem którego nie objął refactoring. Nie mogłem znaleźć przyczyny błędu, ale aplikacja działa w zamierzony sposób, więc chciałem uniknąć ponownego robienia całego projektu z powodu jednej literówki. Liczę na wyrozumiałość Pana profesora.
+
+Szczegóły na grafice resultComplaints.jpg

@@ -1,0 +1,7 @@
+req\facade\RequestFacade.class
+com\mycompany\Requests\resources\JakartaEE8Resource.class
+req\facade\RequestFacadeLocal.class
+com\mycompany\Requests\JakartaRestConfiguration.class
+req\backing\RequestsList.class
+req\facade\AbstractFacade.class
+req\entities\Request.class

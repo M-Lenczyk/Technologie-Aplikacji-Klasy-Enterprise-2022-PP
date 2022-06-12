@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "wvvY/WYwGENditpyTk+Fq8c7djoUFbs4abMYCr7vDWI=",
+  "Source": "WebApiAjax",
+  "BasePath": "_content/WebApiAjax",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiAjax\\wwwroot",
+      "Source": "WebApiAjax",
+      "ContentRoot": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\",
+      "BasePath": "_content/WebApiAjax",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\calculatorJQUERY.js",
+      "SourceId": "WebApiAjax",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\",
+      "BasePath": "_content/WebApiAjax",
+      "RelativePath": "calculatorJQUERY.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\calculatorJQUERY.js"
+    },
+    {
+      "Identity": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\calculatorJS.js",
+      "SourceId": "WebApiAjax",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\",
+      "BasePath": "_content/WebApiAjax",
+      "RelativePath": "calculatorJS.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\calculatorJS.js"
+    },
+    {
+      "Identity": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\index.html",
+      "SourceId": "WebApiAjax",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NighT_WalRiDeR\\Desktop\\PROJ\\REPOZYTORIUM\\Lab10_Ajax\\WebApiAjax\\wwwroot\\",
+      "BasePath": "_content/WebApiAjax",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
